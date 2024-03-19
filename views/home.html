@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lego Collection</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <nav class="bg-gray-800 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="/" class="text-2xl text-white font-bold">Lego Collection</a>
+            <div class="flex space-x-4">
+                <a href="/about" class="text-white">About</a>
+                <div class="dropdown">
+                    <button class="text-white">Theme</button>
+                    <div class="dropdown-content">
+                        <a href="/lego/sets?theme=theme1">Theme 1</a>
+                        <a href="/lego/sets?theme=theme2">Theme 2</a>
+                        <a href="/lego/sets?theme=theme3">Theme 3</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container mx-auto p-8">
+        <div class="hero bg-blue-500 text-white p-8 rounded-lg mb-8">
+            <h1 class="text-4xl font-bold mb-4">Explore the Lego Collection</h1>
+            <a href="/lego/sets" class="btn">Explore</a>
+        </div>
+        <div class="grid grid-cols-3 gap-8">
+            <div class="card">
+                <img src="lego_set_image_url" alt="Lego Set Image">
+                <h2 class="text-xl font-semibold">Lego Set Name</h2>
+                <p class="text-sm">Description of the set.</p>
+                <a href="/lego/sets/set_num" class="btn">View Details</a>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

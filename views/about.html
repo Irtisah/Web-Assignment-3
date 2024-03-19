@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <nav class="bg-gray-800 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="/" class="text-2xl text-white font-bold">Lego Collection</a>
+            <div class="flex space-x-4">
+                <a href="/about" class="text-white active">About</a>
+                <div class="dropdown">
+                    <button class="text-white">Theme</button>
+                    <div class="dropdown-content">
+                        <a href="/lego/sets?theme=theme1">Theme 1</a>
+                        <a href="/lego/sets?theme=theme2">Theme 2</a>
+                        <a href="/lego/sets?theme=theme3">Theme 3</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container mx-auto p-8">
+        <div class="hero bg-blue-500 text-white p-8 rounded-lg mb-8">
+            <h1 class="text-4xl font-bold mb-4">About</h1>
+            <p class="text-lg">All about me.</p>
+        </div>
+        <div class="grid grid-cols-2 gap-8">
+            <div>
+                <img src="your_image_url" alt="Your Image">
+            </div>
+            <div>
+                <p class="text-lg">Your short blurb here.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
