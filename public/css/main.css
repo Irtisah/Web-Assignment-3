@@ -740,6 +740,96 @@ html {
   --tw-backdrop-sepia:  ;
 }
 
+.nav {
+  background-color: #850ebd;
+  padding: 1rem;
+}
+
+.navbar-center {
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu a {
+  color: #c52323;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu a.active {
+  color: #21ccd2;
+}
+
+.menu a:hover {
+  color: #d314da;
+}
+
+.menu-horizontal {
+  flex-direction: row;
+}
+
+.menu-vertical {
+  flex-direction: column;
+}
+
+.theme-dropdown details summary::-webkit-details-marker {
+  display: none;
+}
+
+.theme-dropdown details {
+  margin: 0;
+}
+
+.theme-dropdown details summary {
+  cursor: pointer;
+  list-style: none;
+}
+
+.theme-dropdown details ul {
+  margin: 0;
+  padding: 0;
+}
+
+.theme-dropdown details ul li {
+  list-style: none;
+}
+
+.theme-dropdown .details-content {
+  display: none;
+}
+
+.theme-dropdown .details-content[open] {
+  display: block;
+}
+
+.bg-base-100 {
+  background-color: #E5E7EB;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.right-0 {
+  float: right;
+}
+
 @keyframes button-pop {
   0% {
     transform: scale(var(--btn-focus-scale, 0.98));
